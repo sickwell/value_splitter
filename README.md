@@ -18,7 +18,7 @@ where each value is badchar-free in **little-endian**.
 
 ## Usage example
 
-  $ python3 value_splitter.py -b "\x00\x09\x0A\x0B\x0C\x0D\x20" 0x210
+    $ python3 value_splitter.py -b "\x00\x09\x0A\x0B\x0C\x0D\x20" 0x210
     [+] Target: 0x00000210
     [+] Bad chars: 00 09 0a 0b 0c 0d 20
 
